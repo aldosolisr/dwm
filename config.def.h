@@ -111,7 +111,7 @@ static const Key keys[] = {
 	{ MODKEY|Mod1Mask|ShiftMask,    XK_0,      defaultgaps,    {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY|ShiftMask,             XK_q,      killclient,     {0} },
-	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
+	{ MODKEY|ShiftMask,             XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY|Mod1Mask,              XK_q,      setlayout,      {.v = &layouts[2]} },
 	{ MODKEY|Mod1Mask,              XK_w,      setlayout,      {.v = &layouts[3]} },
@@ -145,6 +145,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_e,      quit,           {0} },
 	{ MODKEY,                       XK_n,      shiftview,       {.i = +1 } },
 	{ MODKEY,                       XK_b,      shiftview,       {.i = -1 } },
+	{ MODKEY,                       XK_s,      togglesticky,       {0} },
 };
 
 /* button definitions */
