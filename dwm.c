@@ -1440,7 +1440,7 @@ loadxrdb()
         XRDB_LOAD_COLOR("background", normbgcolor);
         XRDB_LOAD_COLOR("foreground", normfgcolor);
         XRDB_LOAD_COLOR("foreground", selbordercolor);
-        XRDB_LOAD_COLOR("color10", selbgcolor);
+        XRDB_LOAD_COLOR("color2", selbgcolor);
         XRDB_LOAD_COLOR("foreground", selfgcolor);
         XRDB_LOAD_COLOR("color0",  termcol0);
         XRDB_LOAD_COLOR("color1",  termcol1);
