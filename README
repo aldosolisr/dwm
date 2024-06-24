@@ -1,3 +1,19 @@
+# This is a fork of https://git.suckless.org/dwm 
+
+## patches included in thid build
+
+* alwayscenter
+* attachbelow
+* fsignal
+* hide_vacant_tags
+* status2d-systray
+* status2d-xrdb
+* statuscmd-status2d
+* sticky
+* swallow
+* vanity-gaps
+* xrdb
+
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
