@@ -102,6 +102,7 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_e,      quit,           {0} },
+  	{ MODKEY,                       XK_s,      togglesticky,   {0} },
 };
 
 /* button definitions */
@@ -119,6 +120,7 @@ static const Button buttons[] = {
 	{ ClkTagBar,            0,              Button3,        toggleview,     {0} },
 	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
+
 };
 
 /* signal definitions */
